@@ -1,18 +1,170 @@
-header {background: white;}
-.page-header a {}
+:root {--title-text-color:#212121;
+    --common-text-color:#757575;
+    --accent-color:#2196F3;
+    --white-color:#FFFFFF;
+    --main-color: #E5E5E5;}
+    
+header {background: white;
+color: var(--common-text-color);}
 
-.logo {color: aqua;}
-.logo:hover {color: rgb(255, 136, 0);}
+ul {list-style: none}
 
-.site-nav a {color: black}
-.site-nav a:hover {color: red}
+ /* WebStudio */
+ .logo {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.20;
+    letter-spacing: 0.03em}
+.logo-style {color: var(--accent-color);}
+.logo-item {color: var(--title-text-color);}
+.foot-logo {color: var(--white-color);}
+.logo :hover {color: rgb(255, 136, 0);}
 
-.contakt-nav li a 
+/* первая линия */
+.site-nav, .contakt-nav {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
+.site-nav a.link.current {color: var(--accent-color)}
+.site-nav a.link:hover, .site-nav a.link:focus {color: red}
 
+.site-nav a {color: var(--title-text-color)}
+.site-nav a:hover, .site-nav a:focus {color: red}
 
-div {background:#000;}
+.contakt-nav a {color: #757575;}
+.contakt-nav a.link {color: var(--accent-color)}
 
+/* Главная */
+.home {background: #2F303A;
+    color: var(--white-color)}
 
+.home-title {background: #2F303A;
+    color: var(--white-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase}   
+.home .btn {background: var(--accent-color);
+color: var(--white-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em}
 
+/* Особенности */
+.details {background: var(--main-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71
+    letter-spacing 0.03em}
+.details-title {color: var (--title-text-colors);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14
+letter-spacing 0.03em;
+text-transform:uppercase}
 
-footer {background: #000;}
+/* Чем мы занимаемся */
+.about {background: var(--main-color); 
+    color: var(--title-text-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em}
+
+/* Наша команда */
+.team {background: #F5F4FA;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em}
+.team-title {color: var(--title-text-colors);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em}
+.team-person {color: var(--title-text-colors);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em}
+
+/* Футер */
+.footer {background: #2F303A;}
+a {text-decoration: none};
+.foot-adres {color: var(--white-color)}
+.foot-mail, .foot-tel {color: rgba(255, 255, 255, 0.6)}
+.foot-adres, .foot-mail, .foot-tel {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em}
+
+ 
+/* _______ Портфолио______ */
+
+/* Кнопки Портфолио */
+.filter .btn {background: var(--accent-color); 
+    color: var(--white-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;}
+.filter .gal-btn {background: #F5F4FA; 
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em}
+
+/* Галлерея Портфолио */
+.filter .lmnt .lmnt-title {color: var(--title-text-color);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em}
+
+.filter .lmnt .text {color: var(--common-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em}
