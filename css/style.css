@@ -8,20 +8,17 @@
   --contakt-color: #757575;
   --fon-color: #f5f4fa;
 }
-
 body {
   font-size: 14px;
   font-family: sans-serif;
   color: var(--common-text-color);
-  letter-spacing: 00.03em;
-  background: var(--main-color);
+  letter-spacing: 0.03em;
+  background: var(--white-color);
 }
-
 header {
   background: var(--white-color);
   color: var(--common-text-color);
 }
-
 ul {
   list-style: none;
 }
@@ -65,7 +62,6 @@ ul {
 .site-nav a.link:focus {
   color: var(--accent-color);
 }
-
 .site-nav a {
   color: var(--title-text-color);
 }
@@ -73,7 +69,6 @@ ul {
 .site-nav a:focus {
   color: var(--accent-color);
 }
-
 .contakt-nav a {
   color: var(--contakt-color);
 }
@@ -90,7 +85,6 @@ ul {
   background: var(--home-color);
   color: var(--white-color);
 }
-
 .home-title {
   background: var(--home-color);
   color: var(--white-color);
@@ -119,13 +113,11 @@ ul {
 .details {
   background: var(--main-color);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71 letter-spacing 0.03em;
 }
 .details-title {
-  color: var (--title-text-colors);
+  color: var(--title-text-colors);
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -186,7 +178,6 @@ ul {
 a {
   text-decoration: none;
 }
-
 .footer-adres {
   font-family: 'Roboto';
   font-style: normal;
@@ -201,13 +192,15 @@ a {
 .tel {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer a:hover,
 .footer a:focus {
   color: var(--accent-color);
 }
 
 /* _______ Портфолио______ */
+.link-portf {
+  color: var(--contakt-color);
+}
 
 /* Кнопки Портфолио */
 .btn {
@@ -232,7 +225,6 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
 .btn:hover,
 .btn:focus {
   background: var(--white-color);
@@ -254,17 +246,13 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
 .elements .text {
   color: var(--common-text-color);
-  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
-
 .elements a:hover,
 .elements a:focus {
   color: var(--accent-color);
