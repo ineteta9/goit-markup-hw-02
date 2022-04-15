@@ -10,7 +10,7 @@
 }
 body {
   font-size: 14px;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--common-text-color);
   letter-spacing: 0.03em;
   background: var(--white-color);
@@ -48,7 +48,6 @@ ul {
 /* первая линия */
 .site-nav,
 .contakt-nav {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -98,7 +97,6 @@ ul {
 .home .btn {
   background: var(--accent-color);
   color: var(--white-color);
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -112,26 +110,23 @@ ul {
 /* Особенности */
 .details {
   background: var(--main-color);
-  font-family: 'Roboto';
   font-size: 14px;
-  line-height: 1.71 letter-spacing 0.03em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .details-title {
-  color: var(--title-text-colors);
-  font-family: 'Roboto';
-  font-style: normal;
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14 letter-spacing 0.03em;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 /* Чем мы занимаемся */
-.about {
-  background: var(--main-color);
+.about {background: var(--main-color)}
+.about-title {
   color: var(--title-text-color);
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -142,18 +137,13 @@ ul {
 /* Наша команда */
 .team {
   background: var(--fon-color);
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .team-title {
-  color: var(--title-text-colors);
-  font-family: 'Roboto';
-  font-style: normal;
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -161,9 +151,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .team-person {
-  color: var(--title-text-colors);
-  font-family: 'Roboto';
-  font-style: normal;
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -179,7 +167,6 @@ a {
   text-decoration: none;
 }
 .footer-adres {
-  font-family: 'Roboto';
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -239,8 +226,6 @@ a {
 /* Галлерея Портфолио */
 .elements .element-title {
   color: var(--title-text-color);
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -248,7 +233,6 @@ a {
 }
 .elements .text {
   color: var(--common-text-color);
-  font-style: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
